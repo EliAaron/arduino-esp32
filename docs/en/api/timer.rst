@@ -206,7 +206,7 @@ This function is used to configure alarm value and autoreload of the timer. Alar
 * ``timer`` timer struct.
 * ``alarm_value`` alarm value to generate event.
 * ``autoreload`` enabled/disabled autorealod.
-* ``reload_count`` number of autoreloads (0 = unlimited). Has no effect if autorealod is disabled.
+* ``reload_count`` alarm reload count value. Has no effect if autorealod is disabled.
 
 Example Applications
 ********************
