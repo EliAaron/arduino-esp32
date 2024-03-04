@@ -45,7 +45,7 @@ void setup() {
   timerAttachInterrupt(timer, &onTimer);
 
   // Set alarm to call onTimer function every second (value in microseconds).
-  // Repeat the alarm (third parameter) with unlimited count = 0 (fourth parameter).
+  // Repeat the alarm (third parameter) with reload count = 0 (fourth parameter).
   timerAlarm(timer, 1000000, true, 0);
 }
 
